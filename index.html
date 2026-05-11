@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antinna - Intelligent. Integrated. Infinite.</title>
+    
+    <!-- CSS Architecture -->
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+    <div id="app">
+        <!-- Components will be mounted here -->
+        <header id="navbar-container"></header>
+        
+        <main>
+            <section class="hero-section layout-container">
+                <div class="hero-content reveal">
+                    <h1>Intelligent. Integrated. <span class="accent-text">Infinite.</span></h1>
+                    <p>Experience the next generation of digital ecosystems.</p>
+                </div>
+            </section>
+            
+            <section class="products-section layout-container">
+                <h2 class="reveal">Featured Tech</h2>
+                <div id="products-grid" class="grid-layout">
+                    <!-- ProductCards will be rendered here -->
+                </div>
+            </section>
+        </main>
+        
+        <footer id="footer-container"></footer>
+    </div>
+
+    <!-- Core Architecture -->
+    <script type="module" src="assets/js/pages/main.js"></script>
+</body>
+</html>
